@@ -2,7 +2,7 @@
 
 The code in this repository, only shows how to display a Baidu map in a rails application and add new markers. Geocoder is there to allow you to retrieve a set of coordinates (latitude & longitude) from a given address. Baidu needs only a set of coordinates, so you should be able to easily make the link.
 
-If you don't know how to use Geocoder, here is the (README)[https://github.com/alexreisner/geocoder#baidu-baidu].
+If you don't know how to use Geocoder, here is the [README](https://github.com/alexreisner/geocoder#baidu-baidu).
 
 # Configuring Geocoder for Baidu
 
@@ -19,7 +19,7 @@ Geocoder.configure({
 })
 ```
 
-Reference : (Geocoder gem)[https://github.com/alexreisner/geocoder#baidu-baidu].
+Reference : [Geocoder gem](https://github.com/alexreisner/geocoder#baidu-baidu).
 
 # Displaying the Baidu Map 
 
