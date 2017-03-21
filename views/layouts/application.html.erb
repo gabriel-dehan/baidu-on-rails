@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TODO</title>
+    <!-- ... -->
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+  </head>
+  <body>
+  	<div class="container">
+    	<%= yield %>
+    </div>
+    
+    <!-- Loads assets javascript -->
+    <%= javascript_include_tag 'application' %>
+    <!-- Loads baidu javascript API -->
+		<script src="http://api.map.baidu.com/api?v=2.0&ak=CLIENT_BAIDU_MAP_API_KEY"></script>
+    <!-- Loads javascript in the views (see map.html.erb) -->
+    <%= yield(:after_js) %>
+  </body>
+</html>

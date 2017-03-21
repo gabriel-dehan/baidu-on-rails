@@ -1,0 +1,13 @@
+<div id="map-container">
+  <div id="map-canvas"  style="width: 500px; height: 500px;"></div>
+</div>
+
+<%= content_for(:after_js) do %>
+<script type="text/javascript">
+  $(function() {
+  	var map = baiduMap("map-canvas", 121.4737, 31.2304);
+  	map.addMarker(121.4737, 31.2304)
+  	map.addMarker(121.4737, 31.2306)
+  });
+</script>
+<% end %>
